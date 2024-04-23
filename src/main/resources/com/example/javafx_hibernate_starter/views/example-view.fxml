@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21"
+            fx:controller="com.example.javafx_hibernate_starter.controller.ExampleViewController">
+    <children>
+        <Button layoutX="252.0" layoutY="275.0" mnemonicParsing="false" onAction="#addToDatabase" text="Добавить в бд"
+                AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="247.0" AnchorPane.rightAnchor="247.5"/>
+        <Button layoutX="247.0" layoutY="149.0" mnemonicParsing="false" onAction="#goToExample2" text="Поменять сцену"
+                AnchorPane.bottomAnchor="226.0" AnchorPane.leftAnchor="247.0" AnchorPane.rightAnchor="247.5"
+                AnchorPane.topAnchor="150.0"/>
+    </children>
+</AnchorPane>
